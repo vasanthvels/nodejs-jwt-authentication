@@ -47,6 +47,6 @@ function getToken(req, res, next) {
   }
 } 
 
-app.listen(8000, function () {
-    console.log('App listening on port 8000!');
+var listener = app.listen(process.env.PORT, function () {
+    console.log('Your app is listening on port ' + listener.address().port);
 });
