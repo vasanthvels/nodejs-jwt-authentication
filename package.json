@@ -1,23 +1,20 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "JWT-HybridAppZone",
-  "version": "0.0.1",
+  "name": "jsonwebtoken",
+  "version": "0.0.2",
   "description": "JSON Web Token using Node.js",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.16.2",
-    "jsonwebtoken": "^8.1.0"
+    "jsonwebtoken": "8.5.1"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://github.com/vasanthvels/json-web-token"
+    "url": "https://github.com/vasanthvels/nodejs-jwt-authentication"
   },
   "license": "MIT",
   "keywords": [
